@@ -453,8 +453,8 @@ print(credit31)
 # NET: 0B0001C0035BA VAT: 0B0001C0035CA
 
 
-OPdf.to_excel(r"C:\Users\EQ556AF\OneDrive - EY\Desktop\Programok\RETVRN\pandas_op.xlsx")
-IPdf.to_excel(r"C:\Users\EQ556AF\OneDrive - EY\Desktop\Programok\RETVRN\pandas_ip.xlsx")
+OPdf.to_excel(r"pandas_op.xlsx")
+IPdf.to_excel(r"pandas_ip.xlsx")
 
 xml_str = '<?xml version="1.0" encoding="UTF-8"?>\n' + et.tostring(nyomtatvanyok, pretty_print=True).decode("utf-8")
 #print (xml_str)
