@@ -458,5 +458,5 @@ IPdf.to_excel(r"pandas_ip.xlsx")
 
 xml_str = '<?xml version="1.0" encoding="UTF-8"?>\n' + et.tostring(nyomtatvanyok, pretty_print=True).decode("utf-8")
 #print (xml_str)
-with open (r'C:\Users\EQ556AF\OneDrive - EY\Desktop\Programok\RETVRN\test.xml', 'w',) as f:
+with open (r'test.xml', 'w',) as f:
     f.write(xml_str)
